@@ -1,6 +1,6 @@
 clear all;
 clc;
-%1.- Simulacion de la transmisión ----------------------------------------- 
+%1.- Simulacion de la transmisiÃ³n ----------------------------------------- 
 t = 0:1:15;
 posw2 = [-1 -1;
          -1 +1];  
@@ -32,7 +32,7 @@ for i = 1:16
         s1d(1,:) = s1d(1,:) + xc(i,:);
 end
 
-%2.- Simulacion de la recepción ------------------------------------------- 
+%2.- Simulacion de la recepciÃ³n ------------------------------------------- 
 for i = 1:16
     multscxyt(i,:) = s1d(1,:) .* cxyt(i,:);
 end
