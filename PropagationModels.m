@@ -24,12 +24,12 @@ subplot(2,1,1);
 plot(d, Pespaciolibre);
 xlabel('d [m]');
 ylabel('[dB]');
-title('(1) Potencia recibida, Espacio libre, ecuaci髇 1');
+title('(1) Potencia recibida, Espacio libre, ecuaci贸n 1');
 subplot(2,1,2);
 plot(d, Psuperficiereflejada);
 xlabel('d [m]');
 ylabel('[dB]');
-title('(1) Potencia recibida, Superficie reflejante, ecuaci髇 2');
+title('(1) Potencia recibida, Superficie reflejante, ecuaci贸n 2');
 
 %--------------------------------------------------------------------------
 d2 = [100:100:3000]; %m
@@ -41,12 +41,12 @@ subplot(2,1,1);
 plot(d2, Pespaciolibre2);
 xlabel('d [m]');
 ylabel('[dB]');
-title('(2) Potencia recibida, Espacio libre, ecuaci髇 1');
+title('(2) Potencia recibida, Espacio libre, ecuaci贸n 1');
 subplot(2,1,2);
 plot(d2, Pecuacion2);
 xlabel('d [m]');
 ylabel('[dB]');
-title('(2) Potencia recibida, Superficie reflejante, ecuaci髇 3');
+title('(2) Potencia recibida, Superficie reflejante, ecuaci贸n 3');
 
 %--------------------------------------------------------------------------
 Ht3 = 50;
@@ -59,9 +59,9 @@ subplot(2,1,1);
 plot(d2, Pespaciolibre3);
 xlabel('d [m]');
 ylabel('[dB]');
-title('(3) Potencia recibida, Espacio libre, ecuaci髇 1, H_T = H_R = 50 m');
+title('(3) Potencia recibida, Espacio libre, ecuaci贸n 1, H_T = H_R = 50 m');
 subplot(2,1,2);
 plot(d2, Pecuacion3);
 xlabel('d [m]');
 ylabel('[dB]');
-title('(3) Potencia recibida, Superficie reflejante, ecuaci髇 3, H_T = H_R = 50 m');
+title('(3) Potencia recibida, Superficie reflejante, ecuaci贸n 3, H_T = H_R = 50 m');
