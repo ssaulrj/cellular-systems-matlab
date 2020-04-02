@@ -163,4 +163,4 @@ stem(t,s1d);
 grid on;
 xlabel('t');
 ylabel('amplitud');
-title('s(t), señal resultante');
+title('s(t), seÃ±al resultante');
