@@ -263,7 +263,7 @@ figure(5)
 %     hist(SIRts,15);
     
     bar(xts,propnumts)
-    title('Distribución de probabilidades de las tasas obtenidas, k=1');
+    title('DistribuciÃ³n de probabilidades de las tasas obtenidas, k=1');
     grid on;
     ax = gca;
     ax.XTick = 0:15;
